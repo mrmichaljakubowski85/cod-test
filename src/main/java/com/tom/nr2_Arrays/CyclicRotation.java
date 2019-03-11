@@ -2,7 +2,6 @@ package com.tom.nr2_Arrays;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class CyclicRotation {
 
@@ -20,11 +19,10 @@ public class CyclicRotation {
             }
             Deque<Integer> deque = Arrays.stream(A).boxed().collect(Collectors.toCollection(LinkedList::new));
             for (int i = 0; i < K; i++) {
-                 int last = deque.removeLast();
+                int last = deque.removeLast();
                 deque.addFirst(last);
             }
             return deque.stream().mapToInt(value -> value).toArray();
         }
     }
 }
-

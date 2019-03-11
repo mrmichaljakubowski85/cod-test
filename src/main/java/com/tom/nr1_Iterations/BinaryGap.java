@@ -1,10 +1,6 @@
 package com.tom.nr1_Iterations;
 
-import java.math.BigInteger;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class BinaryGap {
 
@@ -38,4 +34,3 @@ public class BinaryGap {
 
     }
 }
-
