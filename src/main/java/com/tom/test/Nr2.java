@@ -88,19 +88,19 @@ public class Nr2 {
 //        }
 
 
-        wydaje mi sie, ze jest rozwiazanie ze zlozonoscia N, co tak na oko zreszta ocenialbym po tresci zadania, ze to jest zlozonosc docelowa
-
-        trzeba najpierw utworzyc tablice, w ktorej na indeksie i jest suma kolejnych K elementow (i analogiczna dla L)
-
-        i potem na tej podstawie zrobic tablice maksimow sufiksowych, to znaczy na indeksie i jest liczba, ktora jest maksymalna wartoscia sposrod wszystkich podsum o dlugosci K zaczynajacych sie od pozycji i lub dalszej w prawo
-
-        oblicza sie to idac po pierwszej tablicy od prawej strony i powiekszajac na kolejnym elemencie, jesli trzeba
-
-        i wtedy mamy petle dajmy po indeksie "start" i suma calkowita dla tego indeksu to jest tablica_sum_K[start] + tablica_maks_sufix_L[start + K]
-
-        i jeszcze tablica_sum_L[start] + tablica_maks_sufix_K[start + L]
-
-        i mamy jeden przebieg po N
+//        wydaje mi sie, ze jest rozwiazanie ze zlozonoscia N, co tak na oko zreszta ocenialbym po tresci zadania, ze to jest zlozonosc docelowa
+//
+//        trzeba najpierw utworzyc tablice, w ktorej na indeksie i jest suma kolejnych K elementow (i analogiczna dla L)
+//
+//        i potem na tej podstawie zrobic tablice maksimow sufiksowych, to znaczy na indeksie i jest liczba, ktora jest maksymalna wartoscia sposrod wszystkich podsum o dlugosci K zaczynajacych sie od pozycji i lub dalszej w prawo
+//
+//        oblicza sie to idac po pierwszej tablicy od prawej strony i powiekszajac na kolejnym elemencie, jesli trzeba
+//
+//        i wtedy mamy petle dajmy po indeksie "start" i suma calkowita dla tego indeksu to jest tablica_sum_K[start] + tablica_maks_sufix_L[start + K]
+//
+//        i jeszcze tablica_sum_L[start] + tablica_maks_sufix_K[start + L]
+//
+//        i mamy jeden przebieg po N
 
 
 
